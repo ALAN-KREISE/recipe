@@ -64,9 +64,10 @@
     border-color: #ff4444 !important;
   }
   .btn-secondary{
-    color: #fff !important;
+    /* color: #fff !important;
     background-color: #ef5720 !important;
-    border-color: #ff4444 !important;
+    border-color: #ff4444 !important; */
+    border: 1px solid #ef57204a !important;
   }
   .widget{
     border: 1px solid #ef57204a !important;
