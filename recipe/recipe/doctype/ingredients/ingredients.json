@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-12 15:57:05.065984",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "ingredient_name",
+  "ingredient_form",
+  "ingredient_from",
+  "qty",
+  "unit",
+  "ing",
+  "rm_code"
+ ],
+ "fields": [
+  {
+   "fieldname": "ingredient_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ingredient Name"
+  },
+  {
+   "fieldname": "ingredient_form",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ingredient Form"
+  },
+  {
+   "fieldname": "ingredient_from",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ingredient From"
+  },
+  {
+   "fieldname": "qty",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Qty"
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Unit"
+  },
+  {
+   "fieldname": "ing",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ing%"
+  },
+  {
+   "fieldname": "rm_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "RM Code"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-01-12 16:27:26.214341",
+ "modified_by": "Administrator",
+ "module": "Recipe",
+ "name": "Ingredients",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

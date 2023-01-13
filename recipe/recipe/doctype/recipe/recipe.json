@@ -1,0 +1,132 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{name_of_the_dish}-{sub_category}-{category}",
+ "creation": "2023-01-12 16:14:40.409306",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "category",
+  "name_of_the_dish",
+  "origin",
+  "preparation_time",
+  "column_break_5",
+  "sub_category",
+  "date",
+  "meal_period",
+  "cooking_time",
+  "section_break_10",
+  "ingredients",
+  "section_break_12",
+  "preperation_steps",
+  "section_break_14",
+  "garnish_suggestion",
+  "accompaniment_suggestion"
+ ],
+ "fields": [
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Category"
+  },
+  {
+   "fieldname": "sub_category",
+   "fieldtype": "Link",
+   "label": "Sub Category",
+   "options": "Sub Category"
+  },
+  {
+   "fieldname": "name_of_the_dish",
+   "fieldtype": "Data",
+   "label": "Name Of The Dish"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "origin",
+   "fieldtype": "Data",
+   "label": "Origin"
+  },
+  {
+   "fieldname": "meal_period",
+   "fieldtype": "Data",
+   "label": "Meal Period"
+  },
+  {
+   "fieldname": "preparation_time",
+   "fieldtype": "Data",
+   "label": "Preparation Time"
+  },
+  {
+   "fieldname": "cooking_time",
+   "fieldtype": "Data",
+   "label": "Cooking Time"
+  },
+  {
+   "fieldname": "ingredients",
+   "fieldtype": "Table",
+   "label": "Ingredients",
+   "options": "Ingredients"
+  },
+  {
+   "fieldname": "preperation_steps",
+   "fieldtype": "Table",
+   "label": "Preparation Steps",
+   "options": "Preparation"
+  },
+  {
+   "fieldname": "garnish_suggestion",
+   "fieldtype": "Long Text",
+   "label": "Garnish Suggestion"
+  },
+  {
+   "fieldname": "accompaniment_suggestion",
+   "fieldtype": "Long Text",
+   "label": "Accompaniment Suggestion"
+  },
+  {
+   "fieldname": "column_break_5",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_10",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_12",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_14",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-01-13 11:07:34.459135",
+ "modified_by": "Administrator",
+ "module": "Recipe",
+ "name": "Recipe",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
